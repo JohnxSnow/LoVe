@@ -1,0 +1,10 @@
+body { font-family: sans-serif; text-align: center; background-color: #ffe6ea; }
+.container { margin-top: 100px; }
+img { width: 250px; }
+.buttons { position: relative; height: 100px; }
+button { padding: 15px 30px; font-size: 20px; cursor: pointer; border-radius: 10px; border: none; margin: 10px; }
+#yesBtn { background-color: #ff6b6b; color: white; }
+#noBtn { background-color: #555; color: white; position: absolute; }
+#noBtn {
+    position: absolute;
+}
