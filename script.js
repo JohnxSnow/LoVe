@@ -30,10 +30,8 @@ yesBtn.addEventListener('click', () => {
     question.style.display = 'none';
     giftSection.style.display = 'block';
     
-    // زیادکردنی گۆرانی تەنها کاتێک بەڵێ دەکرێت
-    const musicDiv = document.createElement('iframe');
-    musicDiv.src = "https://www.youtube.com/embed/CMTp8sGQxQI?autoplay=1";
-    musicDiv.style.width = "100%";
-    musicDiv.style.height = "200px";
-    giftSection.appendChild(musicDiv);
+    // گۆرانییەکە تەنها وەک دەنگ (Audio)
+    audioContainer.innerHTML = `
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/CMTp8sGQxQI?autoplay=1&mute=0" frameborder="0" allow="autoplay"></iframe>
+    `;
 });
